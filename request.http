@@ -1,0 +1,24 @@
+POST http://localhost:3001/danhmuc
+Content-Type: application/json
+
+{
+    "name" : "Laptop A"
+}
+
+
+###
+GET http://localhost:3001/danhmuc
+Content-Type: application/json
+
+###
+DELETE http://localhost:3001/danhmuc/663a02931461d2fe7d2b9c27
+Content-Type: application/json
+
+###
+PUT http://localhost:3001/danhmuc/663a0af41c6167f9d182c23e
+Content-Type: application/json
+
+
+{
+     "name": "ABC"
+}
